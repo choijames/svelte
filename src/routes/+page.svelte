@@ -26,7 +26,10 @@
 
 	//- body
 	main
-		p hi
+		article
+			header
+				h1 Learning how to display data with css
+				p James Choi
 
 	//- footer
 	Footer(

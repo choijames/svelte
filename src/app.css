@@ -28,7 +28,7 @@
 
 	/* headers */
 	header {
-		@apply pb-4;
+		@apply mb-4;
 	}
 	h1 {
 		@apply text-6xl leading-tight;
@@ -50,6 +50,6 @@
 	}
 
 	a {
-		@apply text-primary hover:text-secondary;
+		@apply text-primary hover:text-tertiary;
 	}
 }
