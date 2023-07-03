@@ -31,17 +31,10 @@
 		@apply mb-4;
 	}
 	h1 {
-<<<<<<< Updated upstream
-		@apply text-6xl leading-tight;
-	}
-	h2 {
-		@apply text-3xl leading-snug;
-=======
 		@apply text-8xl leading-tight -ml-1;
 	}
 	h2 {
 		@apply text-6xl leading-snug -ml-0.5;
->>>>>>> Stashed changes
 	}
 	h3 {
 		@apply text-2xl leading-snug;

@@ -30,18 +30,6 @@
 	main
 		article
 			header
-<<<<<<< Updated upstream
-				h1 Learning how to display data with css
-				p James Choi
-
-	//- footer
-	Footer(
-		authorLink="https://www.linkedin.com/in/choijames/",
-		orgLink="https://wcoding.com/"
-	)
-		svelte:fragment(slot="author") James Choi
-		svelte:fragment(slot="org") wcoding
-=======
 				h1 Learning how to display data with CSS
 				ul
 					li.space-x-1
@@ -64,5 +52,4 @@
 			)
 				svelte:fragment(slot="author") James Choi
 				svelte:fragment(slot="org") wcoding
->>>>>>> Stashed changes
 </template>

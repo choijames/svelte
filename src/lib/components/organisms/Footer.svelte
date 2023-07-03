@@ -13,22 +13,6 @@ Web footer component
 
 <template lang="pug">
 	footer
-<<<<<<< Updated upstream
-		.space-x-1
-			// author
-			span.opacity-70 Created by&nbsp;
-			a(
-				class="hover:text-accent hover:underline hover:opacity-100",
-				href!="{ authorLink }",
-				rel="me"
-			)
-				slot(name="author")
-
-			span.opacity-70 &nbsp;@&nbsp;
-
-			// org
-
-=======
 		p.text-base.space-x-1
 			span The end
 			span.opacity-40 :
@@ -44,7 +28,6 @@ Web footer component
 			span.opacity-40 :
 
 			// org
->>>>>>> Stashed changes
 			a(class="hover:text-accent hover:underline hover:opacity-100", href!="{ orgLink }")
 				slot(name="org")
 </template>
