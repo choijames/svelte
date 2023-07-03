@@ -22,4 +22,34 @@
 	section {
 		@apply space-y-2;
 	}
+	aside {
+		@apply space-y-2;
+	}
+
+	/* headers */
+	header {
+		@apply pb-4;
+	}
+	h1 {
+		@apply text-6xl leading-tight;
+	}
+	h2 {
+		@apply text-3xl leading-snug;
+	}
+	h3 {
+		@apply text-2xl leading-snug;
+	}
+	h4 {
+		@apply text-xl;
+	}
+	h5 {
+		@apply text-lg;
+	}
+	h6 {
+		@apply text-base;
+	}
+
+	a {
+		@apply text-primary hover:text-secondary;
+	}
 }
