@@ -14,37 +14,18 @@
 </script>
 
 <template lang="pug">
+
 	//- head
 	svelte:head
-		title Svelte Pug Tailwind Typescript | Starter Template
-		meta(
-			content="A node starter template for the Svelte, Typescript, TailwindCSS, and Pug stack.",
-			name="description"
-		)
+		meta(charset="utf-8")
+		meta(name="description", content="A node starter template for the Svelte, Typescript, TailwindCSS, and Pug stack.")
+		meta(name="viewport", content="width=device-width")
+
+		title hi
 
 	//- body
-	main.relative.grid.grid-cols-1.min-h-screen.place-items-center.p-4.pb-48
-		div(class="sm:max-w-lg lg:max-w-xl xl:max-w-2xl")
-			.mb-20
-				LogosGrid(brands!="{ data.brands }")
-
-			.text-center(class="sm:text-left")
-				//- headline
-				h1.text-22.mb-3.font-semibold.text-accent
-					| Hit the ground running with
-					br
-					| Sveltekit, Typescript, Tailwind &amp; Pug.
-
-				//- text
-				p.text-md.mb-10.text-neutral-100.text-18(class="sm:mb-8 leading-relaxed")
-					| This project is an open source starter template for Node projects using SvelteKit, Typescript, TailwindCSS, and Pug. Designed to help get you up and running quickly with the SkinnyPug Stack.
-
-				//- cta
-				ButtonLink(
-					targetUrl="https://github.com/lightning-jar/lj-sveltekit-ts-tailwind-pug-starter",
-					title="View project on Github"
-				)
-					| Github
+	main
+		p hi
 
 	//- pre-footer
 	PreFooter(
