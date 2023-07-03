@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-	@apply font-sans;
+:root {
+	--color-primary: 67 97 238; /* #4361ee */
+	--color-secondary: 114 9 183; /* #7209b7 */
+	--color-tertiary: 247 37 133; /* #f72585 */
+	--color-dark: 58 12 163; /* #3a0ca3 */
+	--color-light: 76 201 240; /* #4cc9f0 */
+}
+
+@layer base {
+	html {
+		@apply decoration-from-font underline-offset-4;
+	}
+
+	/* spacing */
+	article {
+		@apply space-y-4;
+	}
+	section {
+		@apply space-y-2;
+	}
 }
