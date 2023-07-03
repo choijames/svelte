@@ -16,9 +16,6 @@
 		.mb-24 Looks like you hit a dead end. Sorry about that.
 
 		div
-			ButtonLink(
-				targetUrl="/",
-				title="Go Home"
-			)
+			ButtonLink(targetUrl="/", title="Go Home")
 				| Go Home
 </template>

@@ -42,12 +42,7 @@ A figure with svg image and caption.
 					class="group-hover:opacity-5 -z-10",
 					id!="logo-{ index }-background"
 				)
-				img(
-					alt!="{ name + ' logo' }",
-					height="160",
-					src!="{ src }",
-					width="160"
-				)
+				img(alt!="{ name + ' logo' }", height="160", src!="{ src }", width="160")
 
 	+if('showPlus')
 		PlusBlock
