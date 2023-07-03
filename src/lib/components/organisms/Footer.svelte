@@ -12,7 +12,7 @@ Web footer component
 </script>
 
 <template lang="pug">
-	footer
+	footer.snap-end.px-20.py-8
 		p.text-base.space-x-1
 			span The end
 			span.opacity-40 :

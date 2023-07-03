@@ -17,10 +17,9 @@
 
 	/* spacing */
 	article {
-		@apply space-y-4;
 	}
 	section {
-		@apply space-y-2;
+		@apply space-y-2 snap-start snap-always h-screen p-20 text-white odd:bg-primary even:bg-secondary flex flex-col justify-around;
 	}
 	aside {
 		@apply space-y-2;
@@ -28,28 +27,38 @@
 
 	/* headers */
 	header {
-		@apply mb-4;
+		@apply p-20 snap-start snap-always;
 	}
 	h1 {
-		@apply text-8xl leading-tight -ml-1;
+		@apply text-8xl leading-tight -ml-1 font-light;
 	}
 	h2 {
-		@apply text-6xl leading-snug -ml-0.5;
+		@apply text-6xl leading-tight -ml-0.5 font-light;
 	}
 	h3 {
-		@apply text-2xl leading-snug;
+		@apply text-4xl leading-snug -ml-1;
 	}
-	h4 {
-		@apply text-xl;
+
+	p {
+		@apply text-xl leading-snug;
 	}
-	h5 {
-		@apply text-lg;
+
+	ul {
+		@apply text-2xl leading-snug ml-6 space-y-2;
 	}
-	h6 {
-		@apply text-base;
+
+	li {
+		@apply pl-2;
+	}
+
+	dt {
+		@apply leading-none opacity-60;
+	}
+	dd {
+		@apply text-2xl leading-snug mb-6;
 	}
 
 	a {
-		@apply text-primary hover:text-tertiary;
+		@apply text-primary hover:text-tertiary cursor-pointer;
 	}
 }
