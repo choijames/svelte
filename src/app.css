@@ -13,43 +13,43 @@
 @layer base {
 	html {
 		@apply decoration-from-font underline-offset-4;
+		text-wrap: balance;
 	}
 
 	/* spacing */
 	article {
-		@apply space-y-4;
 	}
 	section {
-		@apply space-y-2;
+		@apply space-y-2 p-20 h-screen snap-always snap-start flex flex-col justify-center odd:bg-primary even:bg-secondary text-white;
 	}
 	aside {
 		@apply space-y-2;
 	}
+	footer {
+		@apply space-y-2 px-20 py-8 snap-end;
+	}
 
 	/* headers */
 	header {
-		@apply mb-4;
+		@apply p-20 snap-always snap-start space-y-2;
 	}
 	h1 {
-		@apply text-6xl leading-tight;
+		@apply text-8xl leading-tight;
 	}
 	h2 {
-		@apply text-3xl leading-snug;
+		@apply text-6xl leading-snug;
 	}
 	h3 {
-		@apply text-2xl leading-snug;
+		@apply text-4xl leading-snug;
 	}
-	h4 {
-		@apply text-xl;
-	}
-	h5 {
-		@apply text-lg;
-	}
-	h6 {
-		@apply text-base;
+
+	/* content */
+	p,
+	li {
+		@apply opacity-80 text-2xl;
 	}
 
 	a {
-		@apply text-primary hover:text-tertiary;
+		@apply text-tertiary hover:text-light;
 	}
 }

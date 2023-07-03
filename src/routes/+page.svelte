@@ -10,7 +10,7 @@
 	svelte:head
 		meta(charset="utf-8")
 		meta(
-			content="A node starter template for the Svelte, Typescript, TailwindCSS, and Pug stack.",
+			content="User interface design is everywhere but you never notice the good ones. Sometimes a room feels just right and you don’t know how to describe it. You walk in and the furniture guides you to your seat. The same goes for a website or an app but its usually only for 1 person, you. It takes time to learn how to design that feeling. I hope I get there one day.",
 			name="description"
 		)
 		meta(content="width=device-width", name="viewport")
@@ -22,14 +22,22 @@
 			rel="stylesheet"
 		)
 
-		title hi
+		title Learning how to display data with CSS
 
 	//- body
-	main
-		article
+	main.h-screen.w-screen.overflow-hidden
+		article.max-h-screen.overflow-y-scroll.snap-y.snap-mandatory
 			header
-				h1 Learning how to display data with css
+				h1 Learning how to display data with CSS
 				p James Choi
+
+			section
+				h2 hi
+				p hi
+
+			section
+				h2 hi
+				p hi
 
 	//- footer
 	Footer(
