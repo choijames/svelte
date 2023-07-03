@@ -3,6 +3,9 @@ module.exports = {
 	content: ["./src/**/*.{html,pug,js,svelte,ts}"],
 	theme: {
 		extend: {
+			fontFamily: {
+        sans: ['"Raleway"', 'sans-serif'],
+      },
 			colors: {
 				// custom rules for starter web page, remove these for your own project
 				primary: "#142239",

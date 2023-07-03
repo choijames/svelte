@@ -1,16 +1,8 @@
 <!-- Example Svelte Page / Starter Web Page-->
 <script lang="ts">
 	// components
-	import ButtonLink from "$atoms/ButtonLink.svelte";
 	import Footer from "$components/organisms/Footer.svelte";
-	import LogosGrid from "$molecules/LogosGrid.svelte";
 	import PreFooter from "$atoms/PreFooter.svelte";
-
-	// types
-	import type { LayoutData } from "./$types";
-
-	// catch data from layout function in +layout.ts
-	export let data: LayoutData;
 </script>
 
 <template lang="pug">
@@ -21,24 +13,21 @@
 		meta(name="description", content="A node starter template for the Svelte, Typescript, TailwindCSS, and Pug stack.")
 		meta(name="viewport", content="width=device-width")
 
-		title hi
+		link(rel="preconnect", href="https://fonts.googleapis.com")
+		link(rel="preconnect", href="https://fonts.gstatic.com", crossorigin)
+		link(rel="stylesheet", href="Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap")
 
+		title hi
+		
 	//- body
 	main
 		p hi
 
-	//- pre-footer
-	PreFooter(
-		targetUrl="https://pugify.dev",
-		title="convert HTML to pug"
-	)
-		svelte:fragment(slot="default") Also check out the ad-free HTML to Pug converter @ https://pugify.dev
-
 	//- footer
 	Footer(
-		authorLink="https://fosstodon.org/@kevinpeckham",
-		orgLink="https://lightningjar.com"
+		authorLink="https://www.linkedin.com/in/choijames/",
+		orgLink="https://wcoding.com/"
 	)
-		svelte:fragment(slot="author") Kevin Peckham
-		svelte:fragment(slot="org") Lightning Jar
+		svelte:fragment(slot="author") James Choi
+		svelte:fragment(slot="org") wcoding
 </template>
