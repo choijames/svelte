@@ -40,7 +40,7 @@ module.exports = {
 	pugSortAttributesBeginning: ["(class)"],
 	pugTabWidth: 2,
 	pugWrapAttributesPattern: "(style)",
-	pugWrapAttributesThreshold: 1,
+	pugWrapAttributesThreshold: 5,
 
 	// prettier svelte plugin options
 	// https://github.com/sveltejs/prettier-plugin-svelte

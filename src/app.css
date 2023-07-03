@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+	--color-primary: 67 97 238; /* #4361ee */
+	--color-secondary: 114 9 183; /* #7209b7 */
+	--color-tertiary: 247 37 133; /* #f72585 */
+	--color-dark: 58 12 163; /* #3a0ca3 */
+	--color-light: 76 201 240; /* #4cc9f0 */
+}
+
+@layer base {
+	html {
+		@apply decoration-from-font underline-offset-4;
+	}
+
+	/* spacing */
+	article {
+		@apply space-y-4;
+	}
+	section {
+		@apply space-y-2;
+	}
+	aside {
+		@apply space-y-2;
+	}
+
+	/* headers */
+	header {
+		@apply mb-4;
+	}
+	h1 {
+		@apply text-6xl leading-tight;
+	}
+	h2 {
+		@apply text-3xl leading-snug;
+	}
+	h3 {
+		@apply text-2xl leading-snug;
+	}
+	h4 {
+		@apply text-xl;
+	}
+	h5 {
+		@apply text-lg;
+	}
+	h6 {
+		@apply text-base;
+	}
+
+	a {
+		@apply text-primary hover:text-tertiary;
+	}
+}
