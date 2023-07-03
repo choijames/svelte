@@ -24,10 +24,13 @@
 
 		title hi
 
+	h1.hidden hi
+
 	//- body
 	main
 		article
 			header
+<<<<<<< Updated upstream
 				h1 Learning how to display data with css
 				p James Choi
 
@@ -38,4 +41,28 @@
 	)
 		svelte:fragment(slot="author") James Choi
 		svelte:fragment(slot="org") wcoding
+=======
+				h1 Learning how to display data with CSS
+				ul
+					li.space-x-1
+						span starter template
+						span.opacity-40 :
+						a(href="https://www.skinnypug.dev/") SkinnyPug.dev
+
+			section
+				h2 hi
+				p hi
+
+			section
+				h2 hi
+				p hi
+
+			//- footer
+			Footer(
+				authorLink="https://www.linkedin.com/in/choijames/",
+				orgLink="https://wcoding.com/"
+			)
+				svelte:fragment(slot="author") James Choi
+				svelte:fragment(slot="org") wcoding
+>>>>>>> Stashed changes
 </template>
