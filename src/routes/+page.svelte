@@ -139,7 +139,7 @@
 			section
 				h2 Good UI Design
 				ul.list-disc
-					li Spacing
+					li Spacing - consistency, shows hierarchy
 					li Use of white space
 					li Hierarchy / grouping
 					li Design based on the capabilities of CSS

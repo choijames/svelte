@@ -16,8 +16,6 @@
 	}
 
 	/* spacing */
-	article {
-	}
 	section {
 		@apply space-y-2 snap-start snap-always h-screen p-20 text-white odd:bg-primary even:bg-secondary flex flex-col justify-around;
 	}
@@ -49,6 +47,9 @@
 
 	li {
 		@apply pl-2;
+	}
+	li > ul {
+		@apply my-2;
 	}
 
 	dt {
